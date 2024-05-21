@@ -3,6 +3,7 @@ import os
 
 
 app = Flask(__name__)
+PORT = 19283
 excluded_dirs = [".venv", ".git", "__pycache__"]
 
 
@@ -41,4 +42,4 @@ def attach_extension():
 
 
 if __name__ == "__main__":
-    app.run(port=54321)
+    app.run(port=PORT)
