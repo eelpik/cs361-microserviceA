@@ -1,5 +1,5 @@
 # How to run the microservice
-First, make sure the Flask package for Python is installed, either globally or in a virtual environment. I also used the Requests library for Python to make the HTTP requests in the examples.
+First, make sure the Flask package for Python is installed, either globally or in a virtual environment.
 
 The simplest way to run the microservice is to just run the extension-attacher.py file with Python (e.g. navigate to this directory in a terminal and enter `python extension-attacher.py`). This will start the microservice's Flask server on whichever port is specified at the top of extension-attacher.py.
 
