@@ -47,3 +47,4 @@ For the example request above, the response will look something like:
 	"filepaths": ["/bla/bla/bla/microservice/images/corvallis.jpg"]
 }
 ```
+The response will contain the filename even if no matching files are found.
