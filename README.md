@@ -48,3 +48,6 @@ For the example request above, the response will look something like:
 }
 ```
 The response will contain the filename even if no matching files are found.
+
+# UML sequence diagram
+<img src="https://github.com/eelpik/cs361-microserviceA/blob/main/UML.svg" style="width: 100%;" />
