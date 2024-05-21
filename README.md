@@ -29,9 +29,9 @@ data = {
 	"extension": "jpg"
 }
 
-response = requests.post("http://localhost:19283/attach", json=data)
+response = requests.post("http://localhost:19283/attach", json=data).json()
 ```
-The response will be a dictionary with the requested filename. It will also contain a list of absolute paths for files that that match the requested filename and are within the microservice's folder or subfolders. For example, the microservice's file structure might look like this:
+Make sure to add `.json()` to the end of the request line if you want the response data as a Python dictionary. The dictionary will contain the requested filename. It will also contain a list of absolute paths for files that that match the requested filename and are within the microservice's folder or subfolders. For example, the microservice's file structure might look like this:
 ```
 + microservice (folder)
 	- extension-attacher.py
